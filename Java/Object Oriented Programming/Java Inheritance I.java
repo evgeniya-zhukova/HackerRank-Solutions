@@ -1,25 +1,36 @@
 import java.io.*;
-import java.math.*;
-import java.security.*;
-import java.text.*;
 import java.util.*;
-import java.util.concurrent.*;
-import java.util.function.*;
+import java.text.*;
+import java.math.*;
 import java.util.regex.*;
-import java.util.stream.*;
-import static java.util.stream.Collectors.joining;
-import static java.util.stream.Collectors.toList;
 
-public class Solution {
-    public static void main(String[] args) throws IOException {
-        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+class Animal{
+	void walk()
+	{
+		System.out.println("I am walking");
+	}
+}
 
-        int N = Integer.parseInt(bufferedReader.readLine().trim());
+class Bird extends Animal
+{
+	void fly()
+	{
+		System.out.println("I am flying");
+	}
+    void sing()
+    {
+        System.out.println("I am singing");
+    }    
+}
 
-        bufferedReader.close();
-        
-        for (int i=1; i <=10 ; i++){
-            System.out.println(N + " x " + i + " = " + N*i);
-        }
-    }
+public class Solution{
+
+   public static void main(String args[]){
+
+	  Bird bird = new Bird();
+	  bird.walk();
+	  bird.fly();
+      bird.sing();
+      
+   }
 }
