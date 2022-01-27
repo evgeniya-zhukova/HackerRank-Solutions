@@ -4,4 +4,4 @@
 Java, MySQL
 
 ## Description:
-My solutions for tasks from https://www.hackerrank.com/
+Solutions for tasks from https://www.hackerrank.com/
