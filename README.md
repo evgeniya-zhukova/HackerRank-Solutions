@@ -1,7 +1,7 @@
 # HackerRank solutions
 
 ## Used Technologies:
-Java, MySQL
+Java, MS SQL Server
 
 ## Description:
 Solutions for tasks from https://www.hackerrank.com/
