@@ -1,2 +1,2 @@
-SELECT Name FROM Employee
-ORDER BY Name;
+SELECT COUNT(Name) FROM City
+WHERE Population > 100000;
